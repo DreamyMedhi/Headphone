@@ -9,7 +9,7 @@ const Category = () => {
         `/api/products?populate=*&[filters][categories][id]=${id}`
        
     );
-    console.log(data);
+    // console.log(data);
    
     return( <div className="category-main-content">
         <div className="layout">

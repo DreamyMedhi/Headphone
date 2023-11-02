@@ -6,6 +6,9 @@ import Category from "./components/Category/Category"
 import SingleProduct from "./components/SingleProduct/SingleProduct";
 import Newsletter from "./components/Footer/Newsletter/Newsletter";
 import AppContext from "./utils/context";
+import Information from "./components/Checkout/Infromation";
+import Final from "./components/Checkout/Final";
+import Notification from "./components/Checkout/Notification";
 
 
 function App(){
@@ -17,7 +20,10 @@ function App(){
       <Route path="/" element={<Home/>}></Route>
       <Route path="/category/:id" element={<Category/>}/>
       <Route path="/product/:id" element={<SingleProduct/>}/>
-    </Routes>
+      <Route path="/information" element={<Information/>}/>
+      <Route path="/final" element={<Final/>}></Route>
+      <Route path="/sms" element={<Notification/>}></Route>     
+  </Routes>
     <Newsletter/>
     <Footer/>
 

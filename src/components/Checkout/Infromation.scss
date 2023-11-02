@@ -1,0 +1,54 @@
+@import "../../css-config/mixins.scss";
+
+.address{ 
+width: fit-content;
+height: fit-content;
+display: flex;
+justify-content: center;
+align-items: center;
+display: block;
+margin: 0 auto;
+flex-direction: row;
+margin-top: 20px;
+
+   email{
+      margin-bottom: 3px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 1000px;
+      height:50px;
+     text-align: center;
+      font-size: 16px;
+      color: #212121;
+   }
+ input{
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height:50px;
+   text-align: center;
+    font-size: 16px;
+    color: #212121;
+ }
+
+ .checkout-btn{ 
+    outline: 0;
+    border: 0;
+    height: 50px;
+    width: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   cursor: pointer;
+   font-size: 13px;
+   color: white;
+   background: #8e2de2;
+   border-radius: 3px solid #6516aa;
+}
+
+}
